@@ -76,7 +76,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 首先查看一下自己的电脑需要怎样的驱动，我们可以先到 [http://www.nvidia.com/Download/index.aspx](http://www.nvidia.com/Download/index.aspx) 查询下我们需要的是怎样的驱动，这里我的显卡是 GTX 1080，所以以此为例说明，勾选好对应的配置：
 
-![](./assets/2018-03-11-18-46-41.jpg)
+![](https://germey.gitbooks.io/ai/content/assets/2018-03-11-18-46-41.jpg)
 
 点击 Search，可以看到查询结果如下所示：
 
@@ -135,7 +135,7 @@ sudo ./uninstall_cuda_*.pl
 
 接下来我们再下载 CUDA 9.0，注意 TensorFlow 1.5 和 1.6 版本依然只是兼容 CUDA 9.0，没有兼容 CUDA 9.1，所以不要下载 9.1，CUDA 9.0 的下载地址是：[https://developer.nvidia.com/cuda-90-download-archive](https://developer.nvidia.com/cuda-90-download-archive)，然后依次勾选好系统的版本，如图所示：
 
-![](./assets/2018-03-11-23-37-55.jpg)
+![](https://germey.gitbooks.io/ai/content/assets/2018-03-11-23-37-55.jpg)
 
 这里我们选择 Linux-x86_64-Ubuntu-16.04-runfile 的配置，然后点击 Base Installer 部分的 Download 按钮，下载 CUDA 9.0 安装包。
 
@@ -235,7 +235,7 @@ cuDNN 的全称是 The NVIDIA CUDA® Deep Neural Network library，是专门用�
 
 下载链接：[https://developer.nvidia.com/rdp/cudnn-download](https://developer.nvidia.com/rdp/cudnn-download)，需要注册之后才能打开，这里我们选择 cuDNN v7.1.1 (Feb 28, 2018), for CUDA 9.0，然后选择 cuDNN v7.1.1 Library for Linux，如图所示：
 
-![](./assets/2018-03-11-23-49-17.jpg)
+![](https://germey.gitbooks.io/ai/content/assets/2018-03-11-23-49-17.jpg)
 
 下载下来之后解压安装即可：
 
